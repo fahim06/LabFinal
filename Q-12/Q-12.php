@@ -37,10 +37,10 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
 </head>
 
 <body>
-    <div align="center">
-        <h2>Answer to the question no 12.</h2>
-    </div>
     <div class="wrapper">
+        <div align="center">
+            <h2>Answer to the question no 12.</h2>
+        </div>
         <h2>Registration</h2>
         <h4 id="error"><?php if (isset($output)) {echo $output;} ?></h4>
         <?php
